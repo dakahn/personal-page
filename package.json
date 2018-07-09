@@ -1,0 +1,9 @@
+{
+  "name": "dakahn-page",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^1.4.1"
+  }
+}
