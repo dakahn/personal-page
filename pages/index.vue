@@ -7,17 +7,6 @@
     </div>
 </template>
 
-<script>
-import Caricature from "../static/caricature.svg";
-
-export default {
-  name: "menu",
-  components: {
-    Caricature
-  }
-};
-</script>
-
 <style>
 @font-face {
   font-family: "DDCHardware-Compressed";
