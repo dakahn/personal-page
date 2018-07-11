@@ -1,8 +1,8 @@
 <template>
     <div>
         <h1>Cool, hi. My name is D.A. Kahn.</h1>
-        <p id="description">I'm a JavaScript developer working for <a id="ibm-link" href="https://www.ibm.com/design/">IBM Design</a> in Austin, Texas.💀<p>
-        <p id="links">Check out my <span><a href="https://github.com/dakahn">Github</a></span> for code and to see the kinds of projects that interest me. Head to my <span><a href="https://www.linkedin.com/in/daanguiano/">LinkedIn</a></span> to get in touch or read what I've written on my <span><a href="https://medium.com/@dakahn">Medium</a></span>.
+        <p id="description">I'm a JavaScript developer working for IBM Design in Austin, Texas.💀<p>
+        <p id="links">Check out my <span><a href="https://github.com/dakahn">Github</a></span> for code and projects I'm contributing to. Zip on over to my <span><a href="https://www.linkedin.com/in/daanguiano/">LinkedIn</a></span> profile for some background and to get in touch. To read stuff I've written on the topic of professionally programming computers see my <span><a href="https://medium.com/@dakahn">Medium</a></span>.
         </p>
     </div>
 </template>
