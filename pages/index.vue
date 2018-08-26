@@ -1,64 +1,63 @@
 <template>
-    <div>
-        <h1>Cool, hi. My name is D.A. Kahn.</h1>
-        <p id="description">I'm a JavaScript developer working for IBM Design in Austin, Texas.💀<p>
-        <p id="links">Check out my <span><a href="https://github.com/dakahn">Github</a></span> for code and projects I'm contributing to. Zip on over to my <span><a href="https://www.linkedin.com/in/daanguiano/">LinkedIn</a></span> profile for some background and to get in touch. To read stuff I've written on the topic of professionally programming computers see my <span><a href="https://medium.com/@dakahn">Medium</a></span>.
-        </p>
-    </div>
+      <main>
+        <h1>Cool, hi. I'm @dakahn.</h1>
+        <section id="description">I'm a web developer, an advocate for accessibility online, an outspoken enemy of needless complexity, and a musician.</section>
+        <ul>
+          <li><a href="https://github.com/dakahn">Github</a></li>
+          <li><a href="https://medium.com/@dakahn">Medium</a></li>
+          <li><a href="https://codepen.io/dakahn/#">Codepen</a></li>
+          <li><a href="https://stackoverflow.com/users/9963925/dak">Stack Overflow</a></li>
+          <li><a href="https://www.linkedin.com/in/daanguiano/">Linkedin</a></li>
+          <li><a href="https://soundcloud.com/user-740902594">Soundcloud</a></li>
+          <li><nuxt-link to="/abouthere">About this site</nuxt-link></li>
+        </ul>
+      </main>
 </template>
 
 <style>
-@font-face {
-  font-family: "DDCHardware-Compressed";
-  src: url("../static/DDCHardware-Compressed.otf");
-}
-
-@font-face {
-  font-family: "DDCHardware-Condensed";
-  src: url("../static/DDCHardware-Condensed.otf");
-}
-
 body {
-  background-color: #a8bfff;
   color: #4d4d4d;
-  height: 100vh;
+  background-color: #cddcdc;
+  background-image: radial-gradient(
+      at 50% 100%,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    );
+  background-blend-mode: screen, overlay;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  min-height: 100vh;
   padding-right: 8px;
   padding-left: 8px;
 }
 
 h1 {
-  font-size: 72px;
-  font-family: "DDCHardware-Condensed";
-  line-height: 64px;
+  font-size: 48px;
+  line-height: 58px;
   margin-left: -5px;
   margin-bottom: 16px;
 }
 
 #description {
-  font-family: "DDCHardware-Condensed";
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 26px;
   margin: 32px 0 32px 0;
 }
 
-#links {
-  font-size: 24px;
+ul {
+  font-size: 18px;
+  list-style-position: inside;
   line-height: 32px;
-  font-family: "DDCHardware-Condensed";
-}
-
-#ibm-link {
-  font-size: 42px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  color: #f1f4ff;
-  font-size: 32px;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: #4d4d4d;
+  color: #551a8b;
 }
 
 @media (min-width: 620px) {
