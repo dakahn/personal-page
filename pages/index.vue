@@ -1,5 +1,6 @@
 <template>
       <main>
+        <img class="caricature" src="~/static/caricature.svg"/>
         <h1>Cool, hi. I'm @dakahn.</h1>
         <section id="description">I'm a web developer, an advocate for accessibility online, an outspoken enemy of needless complexity, and a musician.</section>
         <ul>
@@ -47,15 +48,21 @@ body {
   background-blend-mode: screen, overlay;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  min-height: 100vh;
+  height: 100vh;
   padding-right: 8px;
   padding-left: 8px;
+  margin: 0;
+}
+
+.caricature {
+  display: none;
 }
 
 h1 {
   font-size: 48px;
   line-height: 58px;
   margin-left: -5px;
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
@@ -83,6 +90,12 @@ a {
     margin-left: 32px;
     margin-right: 32px;
     max-width: 570px;
+  }
+
+  .caricature {
+    display: block;
+    width: 10rem;
+    margin-left: -6px;
   }
 }
 </style>
