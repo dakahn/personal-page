@@ -3,10 +3,9 @@
         <nuxt-link to="/">back</nuxt-link>
         <h1>About this site</h1>
         <h2>The stack</h2>
-        <p>My main objective was to create a personal page that utilizes server side rendering and has performance as a key feature. So I chose to build with Vue and Node using Nuxt.js.</p>
+        <p>My main objective was to create a personal page that utilizes server side rendering and has performance as a key feature. I wanted first meaningful paint to be around one second (or approximately a 99 Lighthouse score). I also wanted very low configuration and cognitive overhead when spinning the site up so I chose to build with Vue and Node using Nuxt.js. It's hosted on Netlify -- which I really can't recommend strongly enough.</p>
         <h2>The design</h2>
-        <p>It's intentionally "workmanlike" in it's design and execution. This makes it simpler to maintain for me -- and I think quieter websites that communicate simply and effectively are beautiful.</p>
-        <p>The typefaces are system fonts and the colors were chosen for accessibility.</p>
+        <p>It's intentionally "workmanlike" in it's design and execution. This makes it simpler to maintain for me and I think quieter websites that communicate simply and effectively are beautiful. The typefaces are system fonts and the colors were chosen for accessibility.</p>
     </main>
 </template>
 
