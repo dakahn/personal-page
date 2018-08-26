@@ -1,17 +1,19 @@
 <template>
       <main>
-        <img class="caricature" src="~/static/caricature.svg"/>
         <h1>Cool, hi. I'm @dakahn.</h1>
         <section id="description">I'm a web developer, an advocate for accessibility online, an outspoken enemy of needless complexity, and a musician.</section>
-        <ul>
-          <li><a href="https://github.com/dakahn">Github</a></li>
-          <li><a href="https://medium.com/@dakahn">Medium</a></li>
-          <li><a href="https://codepen.io/dakahn/#">Codepen</a></li>
-          <li><a href="https://stackoverflow.com/users/9963925/dak">Stack Overflow</a></li>
-          <li><a href="https://www.linkedin.com/in/daanguiano/">Linkedin</a></li>
-          <li><a href="https://soundcloud.com/user-740902594">Soundcloud</a></li>
-          <li><nuxt-link to="/abouthere">About this site</nuxt-link></li>
-        </ul>
+        <section class="links">
+          <ul>
+            <li><a href="https://github.com/dakahn">Github</a></li>
+            <li><a href="https://medium.com/@dakahn">Medium</a></li>
+            <li><a href="https://codepen.io/dakahn/#">Codepen</a></li>
+            <li><a href="https://stackoverflow.com/users/9963925/dak">Stack Overflow</a></li>
+            <li><a href="https://www.linkedin.com/in/daanguiano/">Linkedin</a></li>
+            <li><a href="https://soundcloud.com/user-740902594">Soundcloud</a></li>
+            <li><nuxt-link to="/abouthere">About this site</nuxt-link></li>
+          </ul>
+          <img class="caricature" src="~/static/caricature.svg" alt="A caricature of me in a cowboy hat." title="Howdy!" />
+        </section>
       </main>
 </template>
 <script>
@@ -55,7 +57,9 @@ body {
 }
 
 .caricature {
-  display: none;
+  width: 9rem;
+  margin-top: 1.5rem;
+  margin-left: -4px;
 }
 
 h1 {
@@ -90,12 +94,6 @@ a {
     margin-left: 32px;
     margin-right: 32px;
     max-width: 570px;
-  }
-
-  .caricature {
-    display: block;
-    width: 10rem;
-    margin-left: -6px;
   }
 }
 </style>
