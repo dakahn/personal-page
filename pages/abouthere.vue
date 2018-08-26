@@ -8,7 +8,22 @@
         <p>It's intentionally "workmanlike" in it's design and execution. This makes it simpler to maintain for me and I think quieter websites that communicate simply and effectively are beautiful. The typefaces are system fonts and the colors were chosen for accessibility.</p>
     </main>
 </template>
-
+<script>
+export default {
+  head() {
+    return {
+      title: "dakahn.netlify.com - About this site",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "The landing page for D.A. Kahn's personal site."
+        }
+      ]
+    };
+  }
+};
+</script>
 <style>
 body {
   color: #4d4d4d;

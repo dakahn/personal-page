@@ -17,7 +17,7 @@
 export default {
   head() {
     return {
-      title: "The personal site of @dakahn",
+      title: "dakahn.netlify.com - Home",
       meta: [
         {
           hid: "description",
