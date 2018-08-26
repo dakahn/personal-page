@@ -13,6 +13,22 @@
         </ul>
       </main>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: "The personal site of @dakahn",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "The landing page for D.A. Kahn's personal site."
+        }
+      ]
+    };
+  }
+};
+</script>
 
 <style>
 body {
