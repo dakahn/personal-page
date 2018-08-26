@@ -12,7 +12,7 @@
             <li><a href="https://soundcloud.com/user-740902594">Soundcloud</a></li>
             <li><nuxt-link to="/abouthere">About this site</nuxt-link></li>
           </ul>
-          <img class="caricature" src="~/static/caricature.svg" alt="A caricature of me in a cowboy hat." title="Howdy!" />
+          <div alt="A caricature of me in a cowboy hat." title="Howdy!" id="caricature"></div>
         </section>
       </main>
 </template>
@@ -56,9 +56,12 @@ body {
   margin: 0;
 }
 
-.caricature {
-  width: 9rem;
-  margin-top: 1.5rem;
+#caricature {
+  height: 144px;
+  width: 144px;
+  background: url(~/static/caricature.svg);
+  background-size: 144px 144px;
+  margin-top: 2rem;
   margin-left: -4px;
 }
 
