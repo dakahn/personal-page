@@ -1,20 +1,24 @@
 <template>
-      <main>
-        <h1>Cool, hi. I'm @dakahn.</h1>
-        <section id="description">I'm a web developer, an advocate for accessibility online, an outspoken enemy of needless complexity, and a musician.</section>
-        <section class="links">
-          <ul>
-            <li><a href="https://github.com/dakahn">Github</a></li>
-            <li><a href="https://medium.com/@dakahn">Medium</a></li>
-            <li><a href="https://codepen.io/dakahn/#">Codepen</a></li>
-            <li><a href="https://stackoverflow.com/users/9963925/dak">Stack Overflow</a></li>
-            <li><a href="https://www.linkedin.com/in/daanguiano/">Linkedin</a></li>
-            <li><a href="https://soundcloud.com/user-740902594">Soundcloud</a></li>
-            <li><nuxt-link to="/abouthere">About this site</nuxt-link></li>
-          </ul>
-          <div alt="A caricature of me in a cowboy hat." title="Howdy!" id="caricature"></div>
-        </section>
-      </main>
+  <main>
+    <h1>Cool, hi. I'm @dakahn.</h1>
+    <section
+      id="description"
+    >I'm a web developer, an advocate for accessibility online, an outspoken enemy of needless complexity, and a musician.</section>
+    <section class="links">
+      <ul>
+        <li>
+          <a href="https://github.com/dakahn">Github</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/daanguiano/">Linkedin</a>
+        </li>
+        <li>
+          <nuxt-link to="/abouthere">About this site</nuxt-link>
+        </li>
+      </ul>
+      <div alt="A caricature of me in a cowboy hat." title="Howdy!" id="caricature"></div>
+    </section>
+  </main>
 </template>
 <script>
 export default {
