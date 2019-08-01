@@ -3,9 +3,9 @@
 <html lang="en">
   <main>
     <head>
-      <title>An introduction to Accessibility</title>
+      <title>An introduction to Accessibility on the Web</title>
     </head>
-    <h1>An introduction to Accessibility</h1>
+    <h1>An introduction to Accessibility on the Web</h1>
     <h2>What is web accessibility?</h2>
     <p>(borrowing heavily from Todd Liebsch from Deque) "Designing and developing for the web so that people with disabilities can perceive, understand, navigate, interact, and contribute without barriers or added frustration."</p>
     <h2>What do we mean by "people with disabilities"?</h2>
